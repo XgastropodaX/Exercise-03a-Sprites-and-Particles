@@ -13,9 +13,11 @@ var new_position = Vector2(0,0)
 
 # Piece Stuff
 var possible_pieces = [
-	load("res://Pieces/Red.tscn"),
-	load("res://Pieces/Green.tscn"),
-	load("res://Pieces/Blue.tscn")
+	load("res://Pieces/Eye.tscn"),
+	load("res://Pieces/Cross.tscn"),
+	load("res://Pieces/Potion.tscn"),
+	load("res://Pieces/Mushroom.tscn"),
+	load("res://Pieces/Fire.tscn")
 ]
 
 var all_pieces
