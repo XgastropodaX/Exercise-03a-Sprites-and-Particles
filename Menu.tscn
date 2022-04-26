@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Menu.gd" type="Script" id=1]
+[ext_resource path="res://New Assets/Assets/ghostmustdie.png" type="Texture" id=2]
+[ext_resource path="res://broom.mp3" type="AudioStream" id=3]
+
+[node name="Menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 382, 314.5 )
+scale = Vector2( 0.316522, 0.225769 )
+texture = ExtResource( 2 )
+
+[node name="Play" type="Button" parent="."]
+margin_left = 57.0
+margin_top = 263.0
+margin_right = 239.0
+margin_bottom = 332.0
+text = "Play"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Quit" type="Button" parent="."]
+margin_left = 57.0
+margin_top = 345.0
+margin_right = 242.0
+margin_bottom = 405.0
+text = "Quit"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+autoplay = true
+
+[connection signal="pressed" from="Play" to="." method="_on_Play_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

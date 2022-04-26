@@ -1,33 +1,28 @@
+# Project Name
+MSCH-C220 Game Jam - Off the Clock!, April 2022
 
-```
-# Exercise-03a-Sprites-and-Particles
+## Theme
+We used the theme of Time Crunch as a way to make clock based enemies and bosses that you beat up to escape the time crunch.
 
-Exercise for MSCH-C220, 21 September 2021
+## Game Play
+The objective of the game is meant to be to make it to the end of every level, and beat the God of Time to get away from the Time Crunch you're under
+Jump, hit, and run through each level and boss to make it through the end!
 
-The first steps in adding "juicy" features to a simple match-3 game.
-
-## To play
-
-Select and drag tiles using the mouse.
-
+## Impediments
+We ran into a bit of problem where the scenes for Levels 1 and 2 wouldn't open, and we redid the levels and fixed the issue.
 
 ## Implementation
-
-Built using Godot 3.4.2
+Combat, a timer system
 
 ## References
- * [Juice it or lose it — a talk by Martin Jonasson & Petri Purho](https://www.youtube.com/watch?v=Fy0aCDmgnxg)
- * The match-3 game is derived from code provided by [MisterTaftCreates](https://github.com/mistertaftcreates/Godot_match_3), with an accompanying [YouTube series](https://www.youtube.com/playlist?list=PL4vbr3u7UKWqwQlvwvgNcgDL1p_3hcNn2)
- * [Puzzle Pack 2, provided by kenney.nl](https://kenney.nl/assets/puzzle-pack-2)
- * [Ignotum Typeface](https://fontesk.com/ignotum-font/)
- * [Nepszabadag Typeface](https://fontesk.com/nepszabadsag-font/)
- 
+https://opengameart.org/content/pixel-explosion-12-frames, https://patrickdearteaga.com/horror-music/
+
 
 ## Future Development
+None
 
-Typeface changes, Tweening, Music and Sound, Shaders, etc.
-
-## Created by 
-
-Max Moreno
-```
+# Created by: Jellyfish Rangers
+Max Moreno - Sprite Design and animation
+Ross Gelick - Audio
+William Sandage - Level design
+Michael Buzil - Programming

@@ -1,0 +1,79 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://UI/Menu.gd" type="Script" id=1]
+
+[node name="UI" type="CanvasLayer"]
+
+[node name="HUD" type="Control" parent="."]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="ColorRect" parent="HUD"]
+margin_right = 1024.0
+margin_bottom = 30.0
+color = Color( 0, 0, 0, 0.501961 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Score" type="Label" parent="HUD"]
+margin_left = 10.0
+margin_right = 512.0
+margin_bottom = 30.0
+text = "Score: "
+valign = 1
+
+[node name="Health" type="Label" parent="HUD"]
+margin_left = 512.0
+margin_right = 1014.0
+margin_bottom = 31.0
+text = "Health: "
+align = 2
+valign = 1
+
+[node name="Menu" type="Control" parent="."]
+pause_mode = 2
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="ColorRect" parent="Menu"]
+margin_right = 1024.0
+margin_bottom = 600.0
+color = Color( 0, 0, 0, 0.501961 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Save" type="Button" parent="Menu"]
+margin_left = 412.0
+margin_top = 200.0
+margin_right = 612.0
+margin_bottom = 240.0
+text = "Save Game"
+
+[node name="Load" type="Button" parent="Menu"]
+margin_left = 412.0
+margin_top = 250.0
+margin_right = 612.0
+margin_bottom = 290.0
+text = "Load Game"
+
+[node name="Quit" type="Button" parent="Menu"]
+margin_left = 412.0
+margin_top = 400.0
+margin_right = 612.0
+margin_bottom = 440.0
+text = "Quit Game"
+
+[connection signal="pressed" from="Menu/Save" to="Menu" method="_on_Save_pressed"]
+[connection signal="pressed" from="Menu/Load" to="Menu" method="_on_Load_pressed"]
+[connection signal="pressed" from="Menu/Quit" to="Menu" method="_on_Quit_pressed"]
