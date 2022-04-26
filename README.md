@@ -1,28 +1,26 @@
-# Project Name
-MSCH-C220 Game Jam - Off the Clock!, April 2022
-
-## Theme
-We used the theme of Time Crunch as a way to make clock based enemies and bosses that you beat up to escape the time crunch.
-
-## Game Play
-The objective of the game is meant to be to make it to the end of every level, and beat the God of Time to get away from the Time Crunch you're under
-Jump, hit, and run through each level and boss to make it through the end!
-
-## Impediments
-We ran into a bit of problem where the scenes for Levels 1 and 2 wouldn't open, and we redid the levels and fixed the issue.
+# GhostMustDie
+A very very late project
+# Ghost Must Die
+I had so much ambition going into this project. I wanted to do a short series of comics and i made a bunch of original spritework for the game. But just so much happened and I wasn't able to make it what I wanted. But I think I'm still proud of this. At the very least I have learned a lot. I think I'm most definitely going to finish this eventually its just not in the cards right now.
 
 ## Implementation
-Combat, a timer system
+FEATURES
+-save
+-load
+-original sprites
+-menu
+-menu music
+-level music
+-all original tiles
+-an attack that actually works holy crap lmao
+-death screen
+-end game screen
+-so many migraines and sleepless nights
 
 ## References
-https://opengameart.org/content/pixel-explosion-12-frames, https://patrickdearteaga.com/horror-music/
-
 
 ## Future Development
-None
+Its gunna happen. I had such a good idea for this. I explored this a lot more in the game jam project which was a lot closer to what I imagined this to be. 
 
-# Created by: Jellyfish Rangers
-Max Moreno - Sprite Design and animation
-Ross Gelick - Audio
-William Sandage - Level design
-Michael Buzil - Programming
+## Created by
+Max Moreno
